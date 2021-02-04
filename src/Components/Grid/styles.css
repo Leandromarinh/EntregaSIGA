@@ -1,0 +1,65 @@
+.grid-container{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 85px 85px 85px 85px 85px;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.grid-container div{
+    border: 1px solid grey;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.none, materia1, .materia2,.materia3{
+    height: 40px;
+}
+
+.dia p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: -8px;
+    color: #434141;
+}
+
+.dia{
+    height: 1px;
+}
+
+.materia1{
+    background-color:#00ffff ;
+}
+
+.materia2{
+    background-color:#da70d6 ;
+}
+
+.materia3{
+    background-color:#ffff00 ;
+}
+
+.materia1 p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #434141;
+    font-size: 13px;
+    margin-top: -18px;
+    margin-left: -16px;
+}
+
+.materia2 p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #434141;
+    font-size: 11px;
+    margin-top: -18px;
+    margin-left: -16px;
+}
+
+.materia3 p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #434141;
+    font-size: 11px;
+    margin-top: -18px;
+    margin-left: -16px;
+}

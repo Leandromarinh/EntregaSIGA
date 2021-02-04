@@ -1,0 +1,91 @@
+.header{
+    width: 100%;
+    height: 195px;
+}
+
+.header-principal{
+    display: flex;
+    justify-content: space-between;
+    background-color: #def8eb;
+    margin: 0 auto;
+    height: 130px;
+}
+
+.header-usuario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: -550px;
+    width: 140px;
+    margin-top: 25px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 80px;
+    margin-left: -5px;
+}
+
+.header-abaixo{
+    display: flex;
+    background-color: #89c79e;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 65px;
+}
+
+.header-logo{
+    background-color: #def8eb;
+    margin-left: 30px;
+}
+
+.header-usuario{
+    border-radius:100%;
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header-icone{
+    width: 15px;
+    height: 15px;
+    background-color: #def8eb;
+    margin-left: -5px;
+}
+
+.header-abaixo h3{
+    margin: 0px 11px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.header-principal h1{
+    margin-top: 87px;
+    margin-left: -800px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-usuario h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+
+.header-usuario h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 14px;
+}
+

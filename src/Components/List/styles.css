@@ -1,0 +1,44 @@
+.list{
+    width: 1100px;
+    display: flex;
+    columns: #313131;;
+    height: 100%;
+    margin-right:500px;
+    margin-top: -5px;
+    margin-left: -50px ;
+}
+
+.list ul{
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.list ul li{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list ul li:nth-child(1),
+.list ul li:nth-child(2){
+    background-color:#00ffff;
+    width: 445px;
+}
+
+.list ul li:nth-child(3),
+.list ul li:nth-child(4){
+    background-color:#da70d6;
+    width: 445px;
+}
+
+.list ul li:nth-child(5),
+.list ul li:nth-child(6){
+    background-color:#ffff00;
+    width: 445px;
+}
+
